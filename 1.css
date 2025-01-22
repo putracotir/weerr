@@ -1,0 +1,136 @@
+/* Gaya Umum */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Menggunakan font Arial sebagai default */
+    margin: 0;
+    /* Menghilangkan margin default */
+    padding: 0;
+    /* Menghilangkan padding default */
+    line-height: 1.6;
+    /* Jarak antar baris teks */
+}
+
+
+/* Bagian Header */
+
+.header {
+    display: flex;
+    /* Menggunakan flexbox untuk tata letak sejajar */
+    justify-content: space-between;
+    /* Logo di kiri, menu di kanan */
+    align-items: center;
+    /* Menyelaraskan elemen secara vertikal */
+    background-color: #003366;
+    /* Latar belakang biru gelap */
+    color: white;
+    /* Warna teks putih */
+    padding: 10px 20px;
+    /* Ruang di dalam elemen header */
+}
+
+.header .menu ul {
+    list-style: none;
+    /* Menghilangkan bullet points pada daftar */
+    display: flex;
+    /* Menyusun item daftar secara horizontal */
+    margin: 0;
+    /* Menghilangkan margin default */
+    padding: 0;
+    /* Menghilangkan padding default */
+}
+
+.header .menu ul li {
+    margin: 0 10px;
+    /* Menambahkan jarak antar item menu */
+}
+
+.header .menu ul li a {
+    color: white;
+    /* Warna teks putih */
+    text-decoration: none;
+    /* Menghilangkan garis bawah pada tautan */
+}
+
+
+/* Bagian Hero */
+
+.hero {
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    padding: 50px 20px;
+    /* Memberikan ruang di atas dan bawah bagian ini */
+    background-color: #f8f9fa;
+    /* Latar belakang abu-abu terang */
+    color: #333;
+    /* Warna teks abu-abu gelap */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    /* Ukuran font besar untuk judul */
+    color: #003366;
+    /* Warna teks biru gelap */
+}
+
+.hero h2 span {
+    color: #ff6600;
+    /* Warna oranye untuk teks yang disorot */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    /* Ukuran font sedikit lebih besar untuk deskripsi */
+    margin: 20px 0;
+    /* Jarak di atas dan bawah paragraf */
+}
+
+.hero ul {
+    list-style: none;
+    /* Menghilangkan bullet points pada daftar */
+    padding: 0;
+    /* Menghilangkan padding default */
+}
+
+.hero ul li {
+    margin: 10px 0;
+    /* Menambahkan jarak antar item daftar */
+    font-size: 1rem;
+    /* Ukuran font normal */
+}
+
+
+/* Tombol Call-to-Action */
+
+.cta-buttons {
+    margin-top: 20px;
+    /* Jarak atas sebelum tombol */
+}
+
+.btn-primary {
+    text-decoration: none;
+    /* Menghilangkan garis bawah */
+    background-color: #ff6600;
+    /* Warna latar oranye */
+    color: white;
+    /* Warna teks putih */
+    padding: 10px 20px;
+    /* Ruang dalam tombol */
+    border-radius: 5px;
+    /* Membuat sudut tombol membulat */
+    margin-right: 10px;
+    /* Jarak antar tombol */
+}
+
+.btn-secondary {
+    text-decoration: none;
+    /* Menghilangkan garis bawah */
+    background-color: #003366;
+    /* Warna latar biru gelap */
+    color: white;
+    /* Warna teks putih */
+    padding: 10px 20px;
+    /* Ruang dalam tombol */
+    border-radius: 5px;
+    /* Membuat sudut tombol membulat */
+}
